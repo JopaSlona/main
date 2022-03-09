@@ -53,6 +53,7 @@ class Layout
         font-family: "'.$font.'", sans-serif;
       }
 </style>';
+
     }
 }
 ?>

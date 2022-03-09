@@ -6,7 +6,7 @@ $elemnt->styles('main.js');
 $elemnt->styles('bootstrap.css');
 $elemnt->static_scripts();
 $elemnt->static_styles();
-$elemnt->fonts('Roboto');
+$elemnt->fonts(config::style_setings("layout","font"));
 ?>
 <h1>Магазин</h1>
 <div id="grid">
